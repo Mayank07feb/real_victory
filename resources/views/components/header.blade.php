@@ -30,9 +30,9 @@
  <div class="container-fluid bg-primary">
      <div class="container">
          <nav class="navbar navbar-dark navbar-expand-lg py-0">
-             <a href="{{route('home')}}" class="navbar-brand">
-                 <h1 class="text-white fw-bold d-block">Real<span class="text-secondary"> Victory</span> </h1>
-             </a>
+            <a href="{{ route('home') }}" class="navbar-brand">
+                <img src="{{ asset('asset/img/logo.jpg') }}" alt="Real Victory Logo" class="logo-img" style="width: 200px; height: auto;">
+            </a>                       
              <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                  data-bs-target="#navbarCollapse">
                  <span class="navbar-toggler-icon"></span>

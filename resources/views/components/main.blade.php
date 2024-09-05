@@ -8,6 +8,9 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('asset/img/fav.png') }}" type="image/x-icon">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,14 +23,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('asset/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('asset/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('asset/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('asset/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('asset/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('asset/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('asset/css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('asset/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -55,13 +58,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('asset/lib/wow/wow.min.js')}}"></script>
-    <script src="{{asset('asset/lib/easing/easing.min.js')}}"></script>
-    <script src="{{asset('asset/lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{asset('asset/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('asset/lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('asset/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('asset/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('asset/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('asset/js/main.js')}}"></script>
+    <script src="{{ asset('asset/js/main.js') }}"></script>
 </body>
 
 </html>
