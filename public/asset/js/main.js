@@ -107,3 +107,30 @@
 
 })(jQuery);
 
+
+
+
+
+$(document).ready(function() {
+    $('.swiffy-slider').swiffySlider({
+        autoplay: true,
+        interval: 5000, // 5 seconds
+        loop: true,
+        arrows: true,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1 // Show 1 item on mobile devices
+            },
+            576: {
+                items: 1 // Show 1 item on small screens
+            },
+            768: {
+                items: 2 // Show 2 items on tablets
+            },
+            992: {
+                items: 4 // Show 4 items on large screens
+            }
+        }
+    });
+});

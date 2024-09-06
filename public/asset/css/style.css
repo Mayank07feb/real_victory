@@ -671,3 +671,116 @@
 }
 
 /*** Footer End ***/
+
+
+
+
+
+.swiffy-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-heading {
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #ec041c;
+    text-align: center; /* Center align the heading */
+}
+
+.slider-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slider-container li {
+    flex: 1 0 auto;
+    max-width: 25%; 
+    position: relative;
+}
+
+.slider-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid #ddd; /* Added a subtle border */
+}
+
+/* Styling for the posted date and title */
+.posted-date {
+    font-size: 0.875rem;
+    margin: 5px 0;
+}
+
+.slider-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Navigation buttons styling */
+.slider-nav {
+    background: #ec041c; /* Red background */
+    color: transparent; /* Hide text */
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%; /* Circular shape */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.slider-nav-prev {
+    left: 15px; /* Position from the left edge */
+    margin-top: 240px;
+}
+
+.slider-nav-next {
+    right: 15px; /* Position from the right edge */
+    margin-top: 240px;
+}
+
+/* Arrow icons for navigation buttons */
+.slider-nav-prev::before,
+.slider-nav-next::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.slider-nav-prev::before {
+    border-width: 10px 14px 10px 0;
+    border-color: transparent #ec041c transparent transparent;
+}
+
+.slider-nav-next::before {
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent #ec041c;
+}
+
+/* Hover effects for navigation buttons */
+.slider-nav:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Hide the slider indicators */
+.slider-indicators {
+    display: none; /* Hide the indicators */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .slider-container li {
+        max-width: 100%; /* Show 1 item on mobile screens */
+    }
+}

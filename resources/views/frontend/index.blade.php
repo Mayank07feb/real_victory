@@ -126,6 +126,157 @@
     </div>
     <!-- About End -->
 
+    {{-- <div class="container mx-auto my-5">
+        <h2 class="text-center text-3xl font-bold mb-4">Upcoming Posts</h2>
+        <div id="upcomingPostsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row g-3">
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-1.jpg') }}" class="card-img-top rounded" alt="Post 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 1</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-2.jpg') }}" class="card-img-top rounded" alt="Post 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 2</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-1.jpg') }}" class="card-img-top rounded" alt="Post 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 3</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-2.jpg') }}" class="card-img-top rounded" alt="Post 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 4</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-1.jpg') }}" class="card-img-top rounded" alt="Post 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 5</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-2.jpg') }}" class="card-img-top rounded" alt="Post 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 6</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-1.jpg') }}" class="card-img-top rounded" alt="Post 7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 7</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card h-100">
+                                <img src="{{ asset('asset/img/about-2.jpg') }}" class="card-img-top rounded" alt="Post 8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post Title 8</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#upcomingPostsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#upcomingPostsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> --}}
+
+
+    <div class="swiffy-slider">
+        <h3 class="slider-heading text-center">Post Updates</h3>
+        <ul class="slider-container">
+            <li>
+                <img src="{{ asset('asset/img/about-1.jpg') }}" style="max-width: 100%;height: auto;">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 6, 2024</p>
+                    <h2 class="slider-title text-center">Title 1</h2>
+                </div>
+            </li>
+            <li>
+                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 5, 2024</p>
+                    <h2 class="slider-title text-center">Title 2</h2>
+                </div>
+            </li>
+            <li>
+                <img src="{{ asset('asset/img/about-1.jpg') }}" style="max-width: 100%;height: auto;">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 4, 2024</p>
+                    <h2 class="slider-title text-center">Title 3</h2>
+                </div>
+            </li>
+            <li>
+                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 3, 2024</p>
+                    <h2 class="slider-title text-center">Title 4</h2>
+                </div>
+            </li>
+            <li>
+                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 2, 2024</p>
+                    <h2 class="slider-title text-center">Title 5</h2>
+                </div>
+            </li>
+        </ul>
+    
+        <button type="button" class="slider-nav slider-nav-prev"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+    </div>
+    
+    
+
+
+
+
 
     <!-- Services Start -->
     <div class="container-fluid services py-5 mb-5">
