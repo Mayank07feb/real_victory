@@ -117,7 +117,7 @@ $(document).ready(function() {
         interval: 5000, // 5 seconds
         loop: true,
         arrows: true,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 items: 1 // Show 1 item on mobile devices

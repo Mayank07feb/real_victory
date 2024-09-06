@@ -224,40 +224,48 @@
         <h3 class="slider-heading text-center">Post Updates</h3>
         <ul class="slider-container">
             <li>
-                <img src="{{ asset('asset/img/about-1.jpg') }}" style="max-width: 100%;height: auto;">
+                <img src="{{ asset('asset/img/about-1.jpg') }}" alt="Image 1">
                 <div class="slider-caption">
                     <p class="posted-date text-center">Posted on: September 6, 2024</p>
                     <h2 class="slider-title text-center">Title 1</h2>
                 </div>
             </li>
             <li>
-                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <img src="{{ asset('asset/img/about-2.jpg') }}" alt="Image 2">
                 <div class="slider-caption">
                     <p class="posted-date text-center">Posted on: September 5, 2024</p>
                     <h2 class="slider-title text-center">Title 2</h2>
                 </div>
             </li>
             <li>
-                <img src="{{ asset('asset/img/about-1.jpg') }}" style="max-width: 100%;height: auto;">
+                <img src="{{ asset('asset/img/about-1.jpg') }}" alt="Image 1">
                 <div class="slider-caption">
-                    <p class="posted-date text-center">Posted on: September 4, 2024</p>
-                    <h2 class="slider-title text-center">Title 3</h2>
+                    <p class="posted-date text-center">Posted on: September 6, 2024</p>
+                    <h2 class="slider-title text-center">Title 1</h2>
                 </div>
             </li>
             <li>
-                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <img src="{{ asset('asset/img/about-2.jpg') }}" alt="Image 2">
                 <div class="slider-caption">
-                    <p class="posted-date text-center">Posted on: September 3, 2024</p>
-                    <h2 class="slider-title text-center">Title 4</h2>
+                    <p class="posted-date text-center">Posted on: September 5, 2024</p>
+                    <h2 class="slider-title text-center">Title 2</h2>
                 </div>
             </li>
             <li>
-                <img src="{{ asset('asset/img/about-2.jpg') }}" style="max-width: 100%;height: auto;">
+                <img src="{{ asset('asset/img/about-1.jpg') }}" alt="Image 1">
                 <div class="slider-caption">
-                    <p class="posted-date text-center">Posted on: September 2, 2024</p>
-                    <h2 class="slider-title text-center">Title 5</h2>
+                    <p class="posted-date text-center">Posted on: September 6, 2024</p>
+                    <h2 class="slider-title text-center">Title 1</h2>
                 </div>
             </li>
+            <li>
+                <img src="{{ asset('asset/img/about-2.jpg') }}" alt="Image 2">
+                <div class="slider-caption">
+                    <p class="posted-date text-center">Posted on: September 5, 2024</p>
+                    <h2 class="slider-title text-center">Title 2</h2>
+                </div>
+            </li>
+            <!-- More list items as needed -->
         </ul>
     
         <button type="button" class="slider-nav slider-nav-prev"></button>
@@ -271,6 +279,7 @@
             <button></button>
         </div>
     </div>
+    
     
     
 
